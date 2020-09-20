@@ -25,7 +25,7 @@ export default function Profile() {
                         </div>
                         <div className="profile__projects flex flex--wrap">
                             {projects.map(project =>
-                                <Project key={project.id} name={project.name} description={project.description} language={project.language} />
+                                <Project key={project.id} name={project.name} description={project.description} language={project.language} html_url={project.html_url} />
                             )}
                         </div>
                     </div>
