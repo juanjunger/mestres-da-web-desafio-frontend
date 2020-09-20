@@ -1,0 +1,13 @@
+@media screen and (max-width: 768px) {
+    header .desktop__menu ul li:not(:first-child) {
+        display: none;
+    }
+
+    div.card .flex {
+        flex-direction: column;
+    }
+
+    div.card .card__info {
+        margin-top: 1rem;
+    }
+}

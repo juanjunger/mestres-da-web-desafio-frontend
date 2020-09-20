@@ -1,0 +1,40 @@
+/* Header */
+header {
+    padding: 2rem 6%;
+    background-color: #2D2D2D;
+}
+
+/* Header desktop */
+header .desktop__logo img {
+    width: 100%;
+}
+
+header .desktop__menu ul {
+    list-style-type: none;
+}
+
+header .desktop__menu ul li {
+    display: inline;
+    font-family: 'Gotham', 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+header .desktop__menu ul li a.dashboardLink {
+    text-decoration: none;
+    color: #ffffff;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: 0.5s;
+    padding: 15px;
+}
+
+header .desktop__menu ul li a:hover {
+  color: #21EEAA;
+}
+
+header .desktop__menu ul li img{
+  border-radius: 50%;
+}

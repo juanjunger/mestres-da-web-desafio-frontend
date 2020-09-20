@@ -1,0 +1,27 @@
+section.dashboard {
+    padding: 120px 6%;
+    background-color: #ffffff;
+}
+
+section.dashboard .dashboard__head {
+    margin-bottom: 60px;
+}
+
+section.dashboard .dashboard__head h1 {
+    text-align: center;
+    font-family: 'Gotham Black', 'Roboto';
+    font-style: normal;
+    font-size: 34px;
+    color: #2d2d2d;
+    letter-spacing: .05em;
+}
+
+section.dashboard .dashboard__head p {
+    text-align: center;
+    font-family: 'Gotham', 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    color: #2d2d2d;
+    letter-spacing: .05em;
+    margin: 30px 0;
+}

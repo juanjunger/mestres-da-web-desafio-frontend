@@ -1,0 +1,17 @@
+section.profile {
+    padding: 120px 6%;
+    background-color: #ffffff;
+}
+
+section.profile .profile__head {
+    margin-bottom: 60px;
+}
+
+section.profile .profile__head h1 {
+    text-align: center;
+    font-family: 'Gotham Black', 'Roboto';
+    font-style: normal;
+    font-size: 34px;
+    color: #2d2d2d;
+    letter-spacing: .05em;
+}
